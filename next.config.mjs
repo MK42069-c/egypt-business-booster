@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    // App directory is stable in Next.js 13.4+
-    appDir: true,
-  },
   images: {
     domains: ['images.unsplash.com', 'lh3.googleusercontent.com'],
   },
